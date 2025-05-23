@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth.route.js';
 import productsRoutes from './routes/product.route.js';
